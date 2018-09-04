@@ -1,5 +1,18 @@
+body{
+    text-align: center;
+    max-width: auto;;
+}
+
 .crystal-image {
     width: 300px;
-    height: 300px;
+    max-height: auto;
     padding: 5px;
-  }
+}
+
+p{
+    text-align: center;
+}
+
+.list-group{
+    text-align: center;
+}
