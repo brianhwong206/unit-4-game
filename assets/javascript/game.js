@@ -34,7 +34,7 @@ function reset(){
     array.splice(0,array.length); // empties out the array.
     resetArray();
     resetImages();
-    $("#targetAnswer").html("Target number: " + randomTargetNumber); // displays new randomTarget Number
+    $("#targetAnswer").html("Cash on Hand: " + randomTargetNumber); // displays new randomTarget Number
     $("#totalScore").html("Your Total Score: " + totalScore); // displays new total score as 0
     console.log("Target Value: " + randomTargetNumber);
 }
@@ -53,7 +53,7 @@ function setImageValues(){
     for (var i = 0; i < array.length; i++) {
         var image = $("<img>"); // new variable is created for the iteration
         image.addClass("crystal-image"); // class is added to the new variable
-        image.attr("src", "assets/images/hellokittybun2.jpg"); // image link attribute is added to the variable
+        image.attr("src", "assets/images/hellokittybun.jpg"); // image link attribute is added to the variable
         image.attr("value", array[i]); // data value attribute is added to the variable
         image.attr("id", "crystal-image" + i); // data id attribute is added to the variable
         $("#photos").append(image); // variable is then appended to the div in the HTML in form of photo
